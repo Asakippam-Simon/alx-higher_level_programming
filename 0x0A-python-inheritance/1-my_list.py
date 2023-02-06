@@ -1,16 +1,11 @@
 #!/usr/bin/python3
-"""
-===========================
-Module with class MyList
-===========================
-"""
+""" Write a class MyList that inherits from list """
 
 
 class MyList(list):
-    """Class with method print_sorted"""
-    pass
-
+    """[Public instance method that prints the list, but sorted (ascending sort)]
+    Arguments:
+        list {[Class]} -- [Class list]
+    """
     def print_sorted(self):
-        """Methot that sorted a list"""
-
-        print(sorted(list(self)))
+        print(sorted(self))
