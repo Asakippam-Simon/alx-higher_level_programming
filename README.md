@@ -1,1 +1,1 @@
-0x00. Python - Hello, World
+0x12. JavaScript - Warm up
